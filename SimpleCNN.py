@@ -62,3 +62,4 @@ with torch.no_grad():
 
 accuracy = 100 * correct / total
 print(f'Accuracy of the model on the test images: {accuracy:.2f}%')
+print('Finished Training')
